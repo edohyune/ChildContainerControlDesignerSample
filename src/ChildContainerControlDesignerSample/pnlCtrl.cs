@@ -4,10 +4,10 @@ namespace ChildContainerControlDesignerSample
 {
     using System.ComponentModel;
     using System.Windows.Forms;
-    [Designer(typeof(MyUserControlDesigner))]
-    public partial class MyUserControl : UserControl
+    [Designer(typeof(pnlCtrlDesigner))]
+    public partial class pnlCtrl : UserControl
     {
-        public MyUserControl()
+        public pnlCtrl()
         {
             InitializeComponent();
             TypeDescriptor.AddAttributes(this.contentsPanel,

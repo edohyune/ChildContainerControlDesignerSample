@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.myUserControl1 = new ChildContainerControlDesignerSample.MyUserControl();
+            this.myUserControl1 = new ChildContainerControlDesignerSample.pnlCtrl();
             this.myUserControl1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -38,26 +38,30 @@
             // 
             // myUserControl1.ContentsPanel
             // 
+            this.myUserControl1.ContentsPanel.AccessibleDescription = "";
             this.myUserControl1.ContentsPanel.BackColor = System.Drawing.SystemColors.Window;
             this.myUserControl1.ContentsPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.myUserControl1.ContentsPanel.Enabled = true;
-            this.myUserControl1.ContentsPanel.Location = new System.Drawing.Point(0, 30);
+            this.myUserControl1.ContentsPanel.Location = new System.Drawing.Point(0, 18);
             this.myUserControl1.ContentsPanel.Name = "ContentsPanel";
-            this.myUserControl1.ContentsPanel.Size = new System.Drawing.Size(146, 116);
+            this.myUserControl1.ContentsPanel.Size = new System.Drawing.Size(685, 538);
             this.myUserControl1.ContentsPanel.TabIndex = 0;
             this.myUserControl1.ContentsPanel.Visible = true;
-            this.myUserControl1.Location = new System.Drawing.Point(12, 12);
+            this.myUserControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.myUserControl1.Location = new System.Drawing.Point(0, 0);
+            this.myUserControl1.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.myUserControl1.Name = "myUserControl1";
-            this.myUserControl1.Size = new System.Drawing.Size(148, 148);
+            this.myUserControl1.Size = new System.Drawing.Size(687, 558);
             this.myUserControl1.TabIndex = 0;
             this.myUserControl1.Title = "Title";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(278, 184);
+            this.ClientSize = new System.Drawing.Size(687, 558);
             this.Controls.Add(this.myUserControl1);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.myUserControl1.ResumeLayout(false);
@@ -67,7 +71,7 @@
         }
 
         #endregion
-        private MyUserControl myUserControl1;
+        private pnlCtrl myUserControl1;
     }
 }
 

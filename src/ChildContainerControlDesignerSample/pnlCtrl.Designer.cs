@@ -1,6 +1,6 @@
 ﻿namespace ChildContainerControlDesignerSample
 {
-    partial class MyUserControl
+    partial class pnlCtrl
     {
         /// <summary> 
         /// Required designer variable.
@@ -38,9 +38,10 @@
             // 
             this.contentsPanel.BackColor = System.Drawing.SystemColors.Window;
             this.contentsPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.contentsPanel.Location = new System.Drawing.Point(0, 30);
+            this.contentsPanel.Location = new System.Drawing.Point(0, 18);
+            this.contentsPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.contentsPanel.Name = "contentsPanel";
-            this.contentsPanel.Size = new System.Drawing.Size(148, 118);
+            this.contentsPanel.Size = new System.Drawing.Size(115, 71);
             this.contentsPanel.TabIndex = 0;
             // 
             // titlePanel
@@ -50,8 +51,9 @@
             this.titlePanel.Controls.Add(this.titleLabel);
             this.titlePanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.titlePanel.Location = new System.Drawing.Point(0, 0);
+            this.titlePanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.titlePanel.Name = "titlePanel";
-            this.titlePanel.Size = new System.Drawing.Size(148, 30);
+            this.titlePanel.Size = new System.Drawing.Size(115, 18);
             this.titlePanel.TabIndex = 0;
             // 
             // titleLabel
@@ -60,22 +62,24 @@
             this.titleLabel.BackColor = System.Drawing.Color.Transparent;
             this.titleLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.titleLabel.Location = new System.Drawing.Point(0, 0);
+            this.titleLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.titleLabel.Name = "titleLabel";
-            this.titleLabel.Padding = new System.Windows.Forms.Padding(5);
-            this.titleLabel.Size = new System.Drawing.Size(48, 30);
+            this.titleLabel.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.titleLabel.Size = new System.Drawing.Size(37, 18);
             this.titleLabel.TabIndex = 2;
             this.titleLabel.Text = "Title";
             this.titleLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // MyUserControl
+            // pnlCtrl
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Controls.Add(this.contentsPanel);
             this.Controls.Add(this.titlePanel);
-            this.Name = "MyUserControl";
-            this.Size = new System.Drawing.Size(148, 148);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Name = "pnlCtrl";
+            this.Size = new System.Drawing.Size(115, 89);
             this.titlePanel.ResumeLayout(false);
             this.titlePanel.PerformLayout();
             this.ResumeLayout(false);

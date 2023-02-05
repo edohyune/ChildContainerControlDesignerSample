@@ -42,12 +42,12 @@
         }
     }
 
-    public class MyUserControlDesigner : ParentControlDesigner
+    public class pnlCtrlDesigner : ParentControlDesigner
     {
         public override void Initialize(IComponent component)
         {
             base.Initialize(component);
-            var contentsPanel = ((MyUserControl)this.Control).ContentsPanel;
+            var contentsPanel = ((pnlCtrl)this.Control).ContentsPanel;
             this.EnableDesignMode(contentsPanel, "ContentsPanel");
         }
         public override bool CanParent(Control control)
