@@ -26,7 +26,7 @@
         {
             base.PostFilterProperties(properties);
             var propertiesToRemove = new string[] {
-                "Dock", "Anchor",
+                "Dock","Anchor",
                 "Size", "Location", "Width", "Height",
                 "MinimumSize", "MaximumSize",
                 "AutoSize", "AutoSizeMode",

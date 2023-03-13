@@ -39,7 +39,7 @@
             this.contentsPanel.BackColor = System.Drawing.SystemColors.Window;
             this.contentsPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.contentsPanel.Location = new System.Drawing.Point(0, 18);
-            this.contentsPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.contentsPanel.Margin = new System.Windows.Forms.Padding(2);
             this.contentsPanel.Name = "contentsPanel";
             this.contentsPanel.Size = new System.Drawing.Size(115, 71);
             this.contentsPanel.TabIndex = 0;
@@ -51,7 +51,7 @@
             this.titlePanel.Controls.Add(this.titleLabel);
             this.titlePanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.titlePanel.Location = new System.Drawing.Point(0, 0);
-            this.titlePanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.titlePanel.Margin = new System.Windows.Forms.Padding(2);
             this.titlePanel.Name = "titlePanel";
             this.titlePanel.Size = new System.Drawing.Size(115, 18);
             this.titlePanel.TabIndex = 0;
@@ -77,7 +77,7 @@
             this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Controls.Add(this.contentsPanel);
             this.Controls.Add(this.titlePanel);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "pnlCtrl";
             this.Size = new System.Drawing.Size(115, 89);
             this.titlePanel.ResumeLayout(false);
